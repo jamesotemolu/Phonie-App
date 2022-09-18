@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Phonie</title>
+</head>
+
+<body>
+  <div class="container">
+    <header>
+      <div class="nav-bar">
+
+        <img src="./images/Logo 2.png" alt="logo" />
+
+
+        <ul class="navigation-links">
+          <li class="navigation-link"><a href="./index.html">Home</a></li>
+          <li class="navigation-link"><a href="#">about</a></li>
+          <li class="navigation-link"><a href="#">features</a></li>
+          <li class="navigation-link"><a href="#">contact</a></li>
+          <li class="btn btn-nav"><a href="./verify-page.html">verify now</a></li>
+        </ul>
+
+        <div id="toggle-nav" class="toggle-nav"></div>
+      </div>
+
+      <div class="row">
+        <div class="hero-section col-1">
+          <img src="./images/shutterstock_2068036658new 1.png" alt="" class="hero" />
+        </div>
+        <div class=" col-2">
+
+          <div class="verify-section">
+            <h2 class="heading-h2">Let’s get your mobile number verified.</h2>
+            <p class="paragraph">
+              Carefully fill the form below to allow us track your mobile
+              carrier service and commence your verificationn process.
+            </p>
+
+            <form class="form__verify" action="">
+              <label for="firstname"> First Name</label>
+              <input type="text" id="firstname" placeholder="Enter your first name" required />
+              <label for="lastname"> Last Name</label>
+              <input type="text" id="lastname" placeholder="Enter your last name" required />
+              <label for="phonenumber"> Phone Number</label>
+              <div class="input-wrapper">
+                <input type="tel" id="phonenumber" placeholder="Enter your phone number (+23480**, 08*** )" required />
+                <span class="carrier-icon">
+
+                </span>
+              </div>
+
+              <button class="btn open-modal">Verify phone number</button>
+            </form>
+          </div>
+        </div>
+      </div>
+      <dialog class="modal">
+        <h3 class="heading-h3">Verification successful</h3>
+        <button class="btn close-modal">x</button>
+
+        <img src="./images/—Pngtree—green check icon design template_6845766 1.svg" alt="" />
+      </dialog>
+    </header>
+  </div>
+  <script src="./index.js"></script>
+  <script src="./nav.js"></script>
+  <script></script>
+</body>
+
+</html>
